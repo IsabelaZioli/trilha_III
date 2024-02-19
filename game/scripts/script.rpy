@@ -151,6 +151,12 @@ label rightaway2:
 
         e "Você é um exemplo, José. Vou fazer te elogiar para o síndico. Obrigado!"
 
+        play music "The Last Encounter (90s RPG Version) Full Loop.wav"
+
+        scene portaria com interfone
+
+        "Você agiu bem seguindo as normas do seu condomínio, é sempre importante seguir todas as regras para se ter sucesso no seu trabalho. Parabéns!"
+
     # This ends the game.
 
         return
@@ -229,6 +235,7 @@ label later2:
             "Esperar Sr. Ednaldo descer.":
 
                 jump later2
+
 
     return
 
